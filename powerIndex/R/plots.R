@@ -12,6 +12,6 @@ plotPower <- function(buildingsPower)
 
 plotPower2 <- function(test)
 {
-  plot(test[,2] ,test[,4], xlab = "¥\²v", ylab = "¥Î¹q«×¼Æ")
+  plot(test[,2] ,test[,4], xlab = "åŠŸçŽ‡", ylab = "ç”¨é›»åº¦æ•¸")
 }
   
