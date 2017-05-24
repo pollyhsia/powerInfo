@@ -15,7 +15,7 @@ plotPower2 <- function(test)
   plot(test[,2] ,test[,4], xlab = "功率", ylab = "用電度數")
 }
 
-powerAnalysis <- function(test)test
+powerAnalysis <- function(test)
 {
   oldname = names(test)
   names(test) = c(oldname[1], "功率", oldname[3], "用電度數", oldname[5:13])
