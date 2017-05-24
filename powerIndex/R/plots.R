@@ -9,3 +9,9 @@ plotPower <- function(buildingsPower)
              y=buildingsPower[,3], group=1)) +
     geom_line()
 }
+
+plotPower2 <- function(test)
+{
+  plot(test[,2] ,test[,4], xlab = "功率", ylab = "用電度數")
+}
+  
