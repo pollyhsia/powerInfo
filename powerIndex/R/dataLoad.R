@@ -81,9 +81,9 @@ loadPower <- function(building, dateFrom, dateTo)
 
   # target = paste0("N",1)
   
-  building = "01A_P1_14"
-  dateFrom = "2016/12/1"
-  dateTo = "2016/12/1 23:00:00"
+  #building = "01A_P1_14"
+  #dateFrom = "2016/12/1"
+  #dateTo = "2016/12/1 23:00:00"
 
   powerdata = data.frame()
   res = POST("http://140.112.166.97/power/fn2/dataq.aspx",
